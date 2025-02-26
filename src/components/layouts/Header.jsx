@@ -25,7 +25,7 @@ export default function Header() {
               <Link to="/Lifestyle" className="p-3">LIFESTYLE </Link>
             </li>
             <li>
-              <Link to="/SIGN" className="p-3">SIGN UP</Link>
+              <Link to="/SignUp " className="p-3">SIGN UP</Link>
             </li>
           </ul>
         </nav>

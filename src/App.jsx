@@ -14,6 +14,7 @@ function App() {
       <Fashion />
       <Favourite />
       <Lifestyle />
+      
       <Footer />
     </>
   );

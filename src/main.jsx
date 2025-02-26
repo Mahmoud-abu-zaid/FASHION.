@@ -11,6 +11,8 @@ import App from "./App.jsx";
 import Fashion from "./components/pages/Fashion.jsx";
 import Favourite from "./components/pages/Favourite.jsx";
 import Lifestyle from "./components/pages/Lifestyle.jsx";
+import Download from "./components/pages/Download.jsx";
+import SignUp from "./components/pages/SignUp.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,6 +25,8 @@ createRoot(document.getElementById("root")).render(
         <Route path="/Favourite" element={<Favourite />} />
         <Route path="/Lifestyle" element={<Lifestyle />} />
       </Routes>
+      <Download />
+      <SignUp />
     </BrowserRouter>
   </StrictMode>
 );
