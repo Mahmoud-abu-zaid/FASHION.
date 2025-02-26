@@ -4,6 +4,7 @@ import Catalogue from "./components/pages/CATALOGUE";
 import Fashion from "./components/pages/Fashion";
 import Favourite from "./components/pages/Favourite";
 import Home from "./components/pages/Home";
+import Lifestyle from "./components/pages/Lifestyle";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Catalogue />
       <Fashion />
       <Favourite />
+      <Lifestyle />
       <Footer />
     </>
   );

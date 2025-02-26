@@ -4,7 +4,7 @@ export default function Favourite() {
   return (
     <>
       <div className="py-[60px]">
-        <div className=" flex justify-center items-center flex-wrap bg-[#DFC23E]">
+        <div className=" flex justify-center items-center flex-wrap bg-[#DFC23E] p-5">
           <div>
             <img src="/img/Screenshot 2025-02-26 160734.png" alt="" />
           </div>
