@@ -13,6 +13,7 @@ import Favourite from "./components/pages/Favourite.jsx";
 import Lifestyle from "./components/pages/Lifestyle.jsx";
 import Download from "./components/pages/Download.jsx";
 import SignUp from "./components/pages/SignUp.jsx";
+import Footer from "./components/layouts/Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -27,6 +28,7 @@ createRoot(document.getElementById("root")).render(
       </Routes>
       <Download />
       <SignUp />
+      <Footer/>
     </BrowserRouter>
   </StrictMode>
 );

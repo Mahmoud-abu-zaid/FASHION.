@@ -1,4 +1,3 @@
-import Footer from "./components/layouts/Footer";
 import Header from "./components/layouts/Header";
 import Catalogue from "./components/pages/CATALOGUE";
 import Fashion from "./components/pages/Fashion";
@@ -14,8 +13,6 @@ function App() {
       <Fashion />
       <Favourite />
       <Lifestyle />
-      
-      <Footer />
     </>
   );
 }
